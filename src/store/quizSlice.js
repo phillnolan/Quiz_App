@@ -29,7 +29,9 @@ const quizSlice = createSlice({
 
         answerQuestions: (state, action) => {
             const currectQuestion = state.questions[state.currentQuestionIndex]
-            const isCorrect = action.payload.selectedOption === currectQuestion.correctAnswer
+            const isCorrect = Array.isArray(currectQuestion.correctAnswer)
+                ? currectQuestion.correctAnswer.includes(action.payload.selectedOption)
+                : action.payload.selectedOption === currectQuestion.correctAnswer;
 
             const answer = {
                 questionId: currectQuestion.id,

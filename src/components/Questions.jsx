@@ -35,7 +35,9 @@ export default function Questions() {
                         {currentQuestion.options.map((option, index) => {
                             // console.log(currentAnswer)
                             const isSelected = currentAnswer?.selectedOption === index
-                            const isCorrect = index === currentQuestion.correctAnswer
+                            const isCorrect = Array.isArray(currentQuestion.correctAnswer)
+                                ? currentQuestion.correctAnswer.includes(index)
+                                : index === currentQuestion.correctAnswer;
                             const isWrong = isSelected && !isCorrect && showExplanation
                             let buttonClass = `w-full p-4 text-left rounded-xl border-1 border-gray-300 transition-all duration-200`
                             if (showExplanation) {

@@ -41,4 +41,11 @@ export const listPage = [
         , description: "Ôn tập trắc nghiệm"
         , href: "/OPP"
     },
+    {
+        id: 7,
+        name: "Trí tuệ nhân tạo",
+        imageUrl: ""
+        , description: "Ôn tập trắc nghiệm"
+        , href: "/TTNT"
+    },
 ]

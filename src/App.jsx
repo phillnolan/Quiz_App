@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import LSD from './pages/LSD'
 import TTHCM from './pages/TTHCM'
+import CNPM from './pages/CNPM'
+import MMT from './pages/MMT'
+import TTNT from './pages/TTNT'
 import { listPage } from './constants/listPages'
 
 export default function App() {
@@ -18,7 +21,13 @@ export default function App() {
           <Route path="/LSD/:quizId" element={<Quiz quizType="LSD" />} />
           <Route path="/TTHCM" element={<TTHCM />} />
           <Route path="/TTHCM/:quizId" element={<Quiz quizType="TTHCM" />} />
-          {listPage.filter(p => p.href !== '/LSD' && p.href !== '/TTHCM').map((page) => (
+          <Route path="/CNPM" element={<CNPM />} />
+          <Route path="/CNPM/:quizId" element={<Quiz quizType="CNPM" />} />
+          <Route path="/MMT" element={<MMT />} />
+          <Route path="/MMT/:quizId" element={<Quiz quizType="MMT" />} />
+          <Route path="/TTNT" element={<TTNT />} />
+          <Route path="/TTNT/:quizId" element={<Quiz quizType="TTNT" />} />
+          {listPage.filter(p => !['/LSD', '/TTHCM', '/CNPM', '/MMT', '/TTNT'].includes(p.href)).map((page) => (
             <Route key={page.id} path={page.href} element={<Quiz quizType={page.href.substring(1)} />} />
           ))}
         </Routes>
