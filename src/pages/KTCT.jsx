@@ -5,7 +5,7 @@ const quizModules = import.meta.glob('../data/KTCT/*.js');
 const quizzes = Object.keys(quizModules).map((path) => {
     const match = path.match(/Quiz(\d+)\.js$/);
     return match ? { id: match[1], name: `Đề ${match[1]}`, href: `/KTCT/${match[1]}` } : null;
-}).filter(Boolean);
+}).filter(Boolean).sort((a, b) => Number(a.id) - Number(b.id));
 
 
 export default function KTCT() {

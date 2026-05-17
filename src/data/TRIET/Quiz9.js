@@ -1,0 +1,602 @@
+export const sampleQuestions = [
+    {
+        "id": 302,
+        "question": "Hình thức nào của tư duy trừu tượng là hình thức liên kết các khái niệm?",
+        "options": [
+            "Khái niệm",
+            "Biểu tượng",
+            "Cảm giác",
+            "Phán đoán"
+        ],
+        "explanation": "",
+        "correctAnswer": 3
+    },
+    {
+        "id": 303,
+        "question": "Tiêu chuẩn của chân lý theo triết học Mác - Lênin là gì?",
+        "options": [
+            "Thực tiễn",
+            "Nhận thức",
+            "Khoa học",
+            "Tư duy"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 304,
+        "question": "Hình thức nào là hình thức đầu tiên của giai đoạn tư duy trừu tượng?",
+        "options": [
+            "Khái niệm",
+            "Biểu tượng",
+            "Cảm giác",
+            "Suy lý"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 305,
+        "question": "Hình thức nào của tư duy trừu tượng là hình thức liên kết các phán đoán?",
+        "options": [
+            "Khái niệm",
+            "Biểu tượng",
+            "Cảm giác",
+            "Suy lý"
+        ],
+        "explanation": "",
+        "correctAnswer": 3
+    },
+    {
+        "id": 306,
+        "question": "Xác định quan niệm sai về thực tiễn:",
+        "options": [
+            "Thực tiễn là nguồn gốc của nhận thức và qua thực tiễn bộc lộ thuộc tính bản chất của đối tượng",
+            "Thực tiễn là động lực của nhận thức, nó đỏi hỏi tư duy con người phải giải đáp những vấn đề đặt ra",
+            "Thực tiễn là hoạt động vật chất và tinh thần của con người",
+            "Thực tiễn là tiêu chuẩn của chân lý"
+        ],
+        "explanation": "",
+        "correctAnswer": 2
+    },
+    {
+        "id": 307,
+        "question": "Chọn câu trả lời đúng: Tri thức của con người ngày càng hoàn thiện là:",
+        "options": [
+            "Thế giới đang vận động bộc lộ càng nhiều tính quy định",
+            "Nhờ sự nỗ lực hoạt động thực tiễn của con người",
+            "Nhờ hệ thống tri thức trước đó (chân lý) làm tiền đề",
+            "Do khả năng tổng hợp của trí tuệ của con người trong thời đại mới"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 308,
+        "question": "Chọn câu trả lời đúng nhất. Chân lý là:",
+        "options": [
+            "Tri thức đúng",
+            "Tri thức phù hợp với thực tế",
+            "Tri thức phù hợp với hiện thực",
+            "Tri thức phù hợp với hiện thực và được thực tiễn kiểm nghiệm"
+        ],
+        "explanation": "",
+        "correctAnswer": 3
+    },
+    {
+        "id": 309,
+        "question": "Chọn câu trả lời đúng: Trong các hình thức cơ bản của hoạt động thực tiễn, hình thức nào là quan trọng nhất?",
+        "options": [
+            "Sản xuất vật chất",
+            "Chính trị - xã hội",
+            "Thực nghiệm khoa học",
+            "Cả A, B, C"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 310,
+        "question": "Chọn câu trả lời đúng: Một trong những vai trò của thực tiễn đối với nhận thức:",
+        "options": [
+            "Thực tiễn là cơ sở, nguồn gốc của nhận thức",
+            "Thực tiễn là kết quả của nhận thức",
+            "Thực tiễn do ý thức của con người tạo ra",
+            "Thực tiễn không có vai trò gì đối với nhận thức"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 311,
+        "question": "Căn cứ vào sự tồn tại và phát triển của toàn bộ sự vật, hiện tượng, có thể phân chia mâu thuẫn thành:",
+        "options": [
+            "Mâu thuẫn bên trong và mâu thuẫn bên ngoài",
+            "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu",
+            "Mâu thuẫn cơ bản và mâu thuẫn không cơ bản",
+            "Mâu thuẫn đối kháng và mâu thuẫn không đối kháng"
+        ],
+        "explanation": "",
+        "correctAnswer": 2
+    },
+    {
+        "id": 312,
+        "question": "Căn cứ vào quan hệ giữa các mặt đối lập trong một sự vật, hiện tượng hoặc giữa các sự vật, hiện tượng với nhau, có thể phân chia mâu thuẫn thành:",
+        "options": [
+            "Mâu thuẫn đối kháng và mâu thuẫn không đối kháng",
+            "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu",
+            "Mâu thuẫn cơ bản và mâu thuẫn không cơ bản",
+            "Mâu thuẫn bên trong và mâu thuẫn bên ngoài"
+        ],
+        "explanation": "",
+        "correctAnswer": 3
+    },
+    {
+        "id": 313,
+        "question": "Căn cứ vào vai trò của mâu thuẫn đối với sự tồn tại và phát triển của sự vật, hiện tượng trong mỗi giai đoạn nhất định, có thể phân chia mâu thuẫn thành:",
+        "options": [
+            "Mâu thuẫn đối kháng và mâu thuẫn không đối kháng",
+            "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu",
+            "Mâu thuẫn cơ bản và mâu thuẫn không cơ bản",
+            "Mâu thuẫn bên trong và mâu thuẫn bên ngoài"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 314,
+        "question": "Căn cứ vào tính chất đối lập về lợi ích cơ bản giữa các giai cấp trong xã hội có đối kháng giai cấp, có thể phân chia mâu thuẫn thành:",
+        "options": [
+            "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu",
+            "Mâu thuẫn đối kháng và mâu thuẫn không đối kháng",
+            "Mâu thuẫn cơ bản và mâu thuẫn không cơ bản",
+            "Mâu thuẫn bên trong và mâu thuẫn bên ngoài"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 315,
+        "question": "Điền vào chỗ trống:….là hình thức đầu tiên, là cơ sở của mọi nhận thức tiếp theo của con người hình thành do sự tác động trực tiếp của sự vật, hiện tượng lên các giác quan của con người.",
+        "options": [
+            "cảm giác… tri giác",
+            "tri giác …cảm giác",
+            "cảm giác……cảm giác",
+            "tri giác……tri giác"
+        ],
+        "explanation": "",
+        "correctAnswer": 2
+    },
+    {
+        "id": 316,
+        "question": "Điền vào chỗ trống: …. là kết quả của sự tác động trực tiếp của sự vật đồng thời lên nhiều giác quan của con người.",
+        "options": [
+            "Cảm giác",
+            "Tri giác",
+            "Biểu tượng",
+            "Khái niệm"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 317,
+        "question": "Điền vào chỗ trống: …. phản ánh khái quát một hoặc một số thuộc tính chung có tính bản chất nào đó của một nhóm sự vật, hiện tượng được biểu thị bằng một từ hoặc một cụm từ.",
+        "options": [
+            "Biểu tượng",
+            "Khái niệm",
+            "Phán đoán",
+            "Suy lý"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 318,
+        "question": "Quy luật phủ định của phủ định chỉ ra:",
+        "options": [
+            "Phương thức chung của mọi quá trình vận động và phát triển",
+            "Nguồn gốc, động lực cơ bản của mọi quá trình vận động và phát triển",
+            "Khuynh hướng cơ bản của mọi quá trình vận động và phát triển",
+            "Tất cả các phương án đều sai"
+        ],
+        "explanation": "",
+        "correctAnswer": 2
+    },
+    {
+        "id": 319,
+        "question": "Quan điểm nào cho rằng: Các sự vật, hiện tượng và các quá trình khác nhau của thế giới có mối liên hệ, tác động, ảnh hưởng lẫn nhau?",
+        "options": [
+            "Siêu hình",
+            "Biện chứng",
+            "Duy tâm chủ quan",
+            "Duy tâm khách quan"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 320,
+        "question": "Tục ngữ Việt Nam có câu: “Năng nhặt chặt bị”, “Góp gió thành bão”. Quan điểm trên vận dụng quy luật nào sau đây là phù hợp nhất:",
+        "options": [
+            "Quy luật chuyển hóa từ những sự thay đổi về lượng thành những thay đổi về chất và ngược lại",
+            "Quy luật thống nhất và đấu tranh giữa các mặt đối lập",
+            "Quy luật phủ định của phủ định",
+            "Quy luật chọn lọc tự nhiên"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 321,
+        "question": "Theo phép biện chứng duy vật, cái... là cái toàn bộ, phong phú hơn cái...",
+        "options": [
+            "Chung/Riêng",
+            "Riêng/Chung",
+            "Chung/Đơn nhất",
+            "Đơn nhất/Riêng"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 322,
+        "question": "Theo phép biện chứng duy vật, trong hoạt động nhận thức và thực tiễn, nếu chỉ chú trọng thực hiện những bước nhảy liên tục về chất mà không tích lũy về lượng sẽ mắc phải sai lầm:",
+        "options": [
+            "Bảo thủ, hữu khuynh",
+            "Nôn nóng, tả khuynh",
+            "Cục bộ, địa phương",
+            "Chiết trung, ngụy biện"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 323,
+        "question": "Theo chủ nghĩa duy vật biện chứng, nguồn gốc “duy nhất và cuối cùng” của nhận thức là…?",
+        "options": [
+            "Thế giới tâm linh",
+            "Thế giới khách quan",
+            "Thế giới sự vật cảm tính",
+            "Tư duy con người"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 324,
+        "question": "Tiền đề xuất phát của quan điểm duy vật lịch sử là?",
+        "options": [
+            "Con người hiện thực",
+            "Con người trừu tượng",
+            "Con người hành động",
+            "Con người tư duy"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 325,
+        "question": "Điền thêm từ để hoàn thiện nhận định sau đây và xác định đó là nhận định của ai? “Điểm khác biệt căn bản giữa xã hội loài người với xã hội loài vật là ỏ chỗ: loài vật may mắn lắm chỉ hái lượm trong khi con người lại ”",
+        "options": [
+            "Biết sáng tạo/ Ph.Ăngghen",
+            "Sản xuất/Ph.Ăngghen",
+            "Tiến hành lao động/C.Mác",
+            "Tư duy/V.I Lênin"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 326,
+        "question": "Chọn phương án đúng nhất: Xã hội có các loại hình sản xuất cơ bản là...",
+        "options": [
+            "Sản xuất ra của cải vật chất, tinh thần và văn hóa",
+            "Sản xuất ra văn hóa, con người và đời sống tinh thần",
+            "Sản xuất ra của cải vật chất, đời sống tinh thần và nghệ thuật",
+            "Sản xuất ra của cải vật chất, tinh thần và con người"
+        ],
+        "explanation": "",
+        "correctAnswer": 3
+    },
+    {
+        "id": 327,
+        "question": "C. Mác đã viết: “Cái cối xay quay bằng tay đưa lại xã hội có lãnh chúa phong kiến, cái cối xay chạy bằng hơi nước đưa lại xã hội có nhà tư bản công nghiệp”. Hãy cho biết câu nói trên phản ánh quan điểm nào?",
+        "options": [
+            "Vai trò quyết định của lực lượng sản xuất đối với quan hệ sản xuất",
+            "Vai trò quyết định của quan hệ sản xuất đổì với lực lượng sản xuất",
+            "Lực lượng sản xuất và quan hệ sản xuất tồn tại độc lập",
+            "Cơ sở hạ tầng quyết định kiến trúc thượng tầng"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 328,
+        "question": "Theo C.Mác, các nền kinh tế căn bản được phân biệt với nhau bởi?",
+        "options": [
+            "Mục đích của quá trình sản xuất ra của cải vật chất",
+            "Mục đích xã hội của quá trình sản xuất ra của cải vật chất",
+            "Mục đích tự nhiên của quá trình sản xuất ra của cải vật chất",
+            "Phương thức sản xuất ra của cải vật chất"
+        ],
+        "explanation": "",
+        "correctAnswer": 3
+    },
+    {
+        "id": 329,
+        "question": "Tiêu chuẩn quan trọng nhất để phân biệt các thời đại kinh tế là gì?",
+        "options": [
+            "Phương thức sản xuất",
+            "Thể chế chính trị",
+            "Hình thức nhà nước",
+            "Hình thức tôn giáo"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 330,
+        "question": "Phương thức sản xuất là?",
+        "options": [
+            "Những cách thức mà con người sử dụng để tiến hành quá trình sản xuất của xã hội ở những giai đoạn lịch sử nhất định",
+            "Sự thống nhất cơ sở hạ tầng và kiến trúc thượng tầng",
+            "Cách thức con người tiến hành sản xuất qua các giai đoạn lịch sử",
+            "Cách thức con người sản xuất ra của cải vật chất cho xã hội"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 331,
+        "question": "Trong các hình thức của sản xuất xã hội, hình thức nào là nền tảng?",
+        "options": [
+            "Sản xuất vật chất",
+            "Sản xuất tinh thần",
+            "Sản xuất ra bản thân con người",
+            "Sản xuất ra tri thức"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 332,
+        "question": "Quan hệ sản xuất là?",
+        "options": [
+            "Mối quan hệ giữa con người với đối tượng lao động",
+            "Mối quan hệ giữa con người với công cụ lao động",
+            "Mối quan hệ giữa người với người trong quá trình sản xuất vật chất",
+            "Mối quan hệ giữa con người với tư liệu sản xuất"
+        ],
+        "explanation": "",
+        "correctAnswer": 2
+    },
+    {
+        "id": 333,
+        "question": "Sự biến đổi của quan hệ sản xuất do yếu tố nào quyết định nhất?",
+        "options": [
+            "Trình độ của lực lượng sản xuất",
+            "Sự phong phú của đối tượng lao động",
+            "Do công cụ hiện đại",
+            "Trình độ của người lao động"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 334,
+        "question": "Quan hệ cơ bản nhất, đóng vai trò quyết định trong hệ thống quan hệ sản xuất là?",
+        "options": [
+            "Quan hệ tổ chức và quản lý sản xuất",
+            "Quan hệ sở hữu về công cụ lao động",
+            "Quan hệ phân phối",
+            "Quan hệ sở hữu về tư liệu sản xuất"
+        ],
+        "explanation": "",
+        "correctAnswer": 3
+    },
+    {
+        "id": 335,
+        "question": "Lực lượng sản xuất bao gồm các nhân tố nào?",
+        "options": [
+            "Người lao động và tư liệu sản xuất",
+            "Người lao động và công cụ lao động",
+            "Người lao động và tư liệu lao động",
+            "Người lao động và đối tượng lao động"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 336,
+        "question": "Tư liệu sản xuất bao gồm?",
+        "options": [
+            "Con người và công cụ lao động",
+            "Người lao động, công cụ lao động và đối tượng lao động",
+            "Đối tượng lao động và tư liệu lao động",
+            "Công cụ lao động và tư liệu lao động"
+        ],
+        "explanation": "",
+        "correctAnswer": 2
+    },
+    {
+        "id": 337,
+        "question": "Trong mối quan hệ giữa lực lượng sản xuất và quan hệ sản xuất:",
+        "options": [
+            "Lực lượng sản xuất phụ thuộc vào quan hệ sản xuất",
+            "Quan hệ sản xuất phụ thuộc vào trình độ phát triển của lực lượng sản xuất",
+            "Quan hệ sản xuất và lực lượng sản xuất tồn tại tách rời với nhau",
+            "Quan hệ sản xuất và lực lượng sản xuất đều hoàn toàn phụ thuộc vào nhà nước"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 338,
+        "question": "Cơ sở hạ tầng là?",
+        "options": [
+            "Toàn bộ quan hệ sản xuất hợp thành cơ cấu kinh tế của một xã hội nhất định",
+            "Toàn bộ quan hệ sản xuất của xã hội",
+            "Toàn bộ quan hệ xã hội hợp thành cơ cấu kinh tế của một chế độ xã hội",
+            "Toàn bộ quan hệ sản xuất hợp thành cơ cấu của xã hội"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 339,
+        "question": "Kiến trúc thượng tầng là?",
+        "options": [
+            "Toàn bộ những quan điểm chính trị, pháp quyền, đạo đức, triết học, tôn giáo, nghệ thuật... cùng với những thiết chế xã hội tương ứng như nhà nước, đảng phái, giáo hội, các đoàn thể xã hội... được hình thành trên một cơ sở hạ tầng nhất định",
+            "Toàn bộ những quan điểm của xã hội",
+            "Toàn bộ những thiết chế xã hội",
+            "Hệ tư tưởng của giai cấp thống trị"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 340,
+        "question": "Về bản chất, theo Ph.Ăngghen nhà nước là...",
+        "options": [
+            "Công cụ quyền lực quản lý xã hội vì mục đích chung",
+            "Một bộ máy của một giai cấp này dùng để trấn áp một giai cấp khác",
+            "Công cụ quyền lực của mọi giai cấp trong xã hội",
+            "Công cụ của mọi người"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 341,
+        "question": "Cơ sở làm phát sinh các quan hệ xã hội: chính trị, pháp luật... là do...",
+        "options": [
+            "Những quan hệ sản xuất vật chất của xã hội",
+            "Trình độ nhận thức của con người ngày càng cao",
+            "Quan hệ giữa con người với con người ngày càng phức tạp",
+            "Ý muốn của giai cấp thống trị"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 342,
+        "question": "Thực chất của quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng là...",
+        "options": [
+            "Quan hệ giữa kinh tế và chính trị",
+            "Quan hệ giữa đời sống vật chất và đời sống tinh thần",
+            "Quan hệ giữa tồn tại xã hội và ý thức xã hội",
+            "Quan hệ giữa vật chất và ý thức"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 343,
+        "question": "Tính chất phụ thuộc của kiến trúc thượng tầng vào cơ sở hạ tầng có nguyên nhân từ...",
+        "options": [
+            "Tính tất yếu của tồn tại xã hội đối với ý thức xã hội",
+            "Kiến trúc thượng tầng nảy sinh trên cơ sở hạ tầng",
+            "Tính tất yếu kinh tế đối với toàn bộ các lĩnh vực sinh hoạt của xã hội",
+            "Kiến trúc thượng tầng là cái phản ánh cơ sở hạ tầng"
+        ],
+        "explanation": "",
+        "correctAnswer": 2
+    },
+    {
+        "id": 344,
+        "question": "Nhân tố nào trong kiến trúc thượng tầng có tác động trực tiếp nhất và mạnh mẽ nhất tới cơ sở hạ tầng kinh tế của xã hội?",
+        "options": [
+            "Các chính đảng",
+            "Nhà nước",
+            "Các đoàn thể chính trị - xã hội",
+            "Giáo hội"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 345,
+        "question": "Vai trò của kiến trúc thượng tầng đối với cơ sở hạ tầng?",
+        "options": [
+            "Kiến trúc thượng tầng quyết định cơ sở hạ tầng",
+            "Kiến trúc thượng tầng chịu sự quyết định hoàn toàn của cơ sở hạ tầng",
+            "Kiến trúc thượng tầng luôn có tác động tích cực đối với cơ sở hạ tầng",
+            "Kiến trúc thượng tầng thường xuyên có vai trò tác động trở lại cơ s hạ tầng của xã hội"
+        ],
+        "explanation": "",
+        "correctAnswer": 3
+    },
+    {
+        "id": 346,
+        "question": "Chọn phương án đúng nhất: Các yếu tố cấu thành tồn tại xã hội bao gồm?",
+        "options": [
+            "Phương thức sản xuất và điều kiện tự nhiên - hoàn cảnh địa lý",
+            "Phương thức sản xuất, điều kiện tự nhiên và dân cư",
+            "Phương thức sản xuất, xã hội và dân cư",
+            "Điều kiện tự nhiên - hoàn cảnh địa lý và dân cư"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 347,
+        "question": "Khái niệm ý thức xã hội dùng để chỉ?",
+        "options": [
+            "Phương diện sinh hoạt vật chất của xã hội",
+            "Phương diện sinh hoạt tinh thần của một giai cấp",
+            "Phương diện sinh hoạt tinh thần của xã hội, nảy sinh từ tồn tại xã hội và phản ánh tồn tại xã hội trong những giai đoạn phát triển nhất định",
+            "Những đặc trưng về tâm lý, tính cách của một cộng đồng dân tộc"
+        ],
+        "explanation": "",
+        "correctAnswer": 2
+    },
+    {
+        "id": 348,
+        "question": "Mối quan hệ giữa ý thức xã hội và ý thức cá nhân là biểu thị mối quan hệ giữa?",
+        "options": [
+            "Nội dung và hình thức",
+            "Cái chung và cái riêng",
+            "Bản chất và hiện tượng",
+            "Nguyên nhân và kết quả"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 349,
+        "question": "Lựa chọn phương án đúng theo quan điểm triết học Mác - Lênin về đặc điểm tâm lý xã hội?",
+        "options": [
+            "Tâm lý xã hội là sự phản ánh trực tiếp và tự phát đối với hoàn cảnh sống của cộng đồng",
+            "Tâm lý xã hội là sự phản ánh gián tiếp có tính tự phát thường ghi lại những mặt bề ngoài tồn tại xã hội",
+            "Tâm lý xã hội mang tính phong phú và phức tạp, nhưng không tuân theo các quy luật tâm lý",
+            "Tâm lý xã hội không có vai trò quan trọng trong ý thức xã hội"
+        ],
+        "explanation": "",
+        "correctAnswer": 0
+    },
+    {
+        "id": 350,
+        "question": "Lựa chọn phương án đúng về đặc điểm của hệ tư tưởng?",
+        "options": [
+            "Hệ tư tưởng ra đời trực tiếp từ tâm lý xã hội",
+            "Hệ tư tưởng là sự phản ánh gián tiếp và tự giác đối với tồn tại xã hội",
+            "Trong xã hội có giai cấp, chỉ có hệ tư tưởng biểu hiện tính giai cấp của ý thức xã hội",
+            "Hệ tư tưởng không ảnh hưởng đến sự phát triển của chính trị"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    },
+    {
+        "id": 351,
+        "question": "Lựa chọn phương án đúng về vai trò của tồn tại xã hội trong quan hệ biện chứng với ý thức xã hội?",
+        "options": [
+            "Ý thức xã hội hoàn toàn phụ thuộc một cách thụ động vào tồn tại xã hội",
+            "Tồn tại xã hội quyết định ý thức xã hội, song ý thức xã hội vẫn có tính độc lập tương đối của nó",
+            "Khi tồn tại xã hội đã thay đổi thì toàn bộ các yếu tố cấu thành ý thức xã hội biến đổi ngay theo cùng tồn tại xã hội",
+            "Tồn tại xã hội có vai trò quyết định đối với các hình thái ý thức xã hội một cách đơn giản trực tiếp không qua các khâu trung gian"
+        ],
+        "explanation": "",
+        "correctAnswer": 1
+    }
+];
