@@ -9,6 +9,8 @@ import TTHCM from './pages/TTHCM'
 import CNPM from './pages/CNPM'
 import MMT from './pages/MMT'
 import TTNT from './pages/TTNT'
+import TRIET from './pages/TRIET'
+import KTCT from './pages/KTCT'
 import { listPage } from './constants/listPages'
 
 export default function App() {
@@ -27,7 +29,11 @@ export default function App() {
           <Route path="/MMT/:quizId" element={<Quiz quizType="MMT" />} />
           <Route path="/TTNT" element={<TTNT />} />
           <Route path="/TTNT/:quizId" element={<Quiz quizType="TTNT" />} />
-          {listPage.filter(p => !['/LSD', '/TTHCM', '/CNPM', '/MMT', '/TTNT'].includes(p.href)).map((page) => (
+          <Route path="/TRIET" element={<TRIET />} />
+          <Route path="/TRIET/:quizId" element={<Quiz quizType="TRIET" />} />
+          <Route path="/KTCT" element={<KTCT />} />
+          <Route path="/KTCT/:quizId" element={<Quiz quizType="KTCT" />} />
+          {listPage.filter(p => !['/LSD', '/TTHCM', '/CNPM', '/MMT', '/TTNT', '/TRIET', '/KTCT'].includes(p.href)).map((page) => (
             <Route key={page.id} path={page.href} element={<Quiz quizType={page.href.substring(1)} />} />
           ))}
         </Routes>

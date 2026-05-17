@@ -48,4 +48,18 @@ export const listPage = [
         , description: "Ôn tập trắc nghiệm"
         , href: "/TTNT"
     },
+    {
+        id: 8,
+        name: "Triết",
+        imageUrl: ""
+        , description: "Ôn tập trắc nghiệm"
+        , href: "/TRIET"
+    },
+    {
+        id: 9,
+        name: "KTCT",
+        imageUrl: ""
+        , description: "Ôn tập trắc nghiệm"
+        , href: "/KTCT"
+    },
 ]
