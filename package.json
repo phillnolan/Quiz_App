@@ -2,7 +2,7 @@
   "name": "quiz-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Nightbot419.github.io/Quiz_App",
+  "homepage": "https://phillnolan.github.io/Quiz_App",
   "type": "module",
   "scripts": {
     "dev": "vite",
