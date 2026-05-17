@@ -52,7 +52,7 @@ export const sampleQuestions = [
         "question": "Luận điểm nào sau đây chưa đúng về phép biện chứng duy vật?",
         "options": [
             "Chưa thể hiện thông qua hệ thống các quy luật, phạm trù",
-            "Chưa thấy được quy luật vận động nội tại và phát triển của sự vật hiện tượng Nguyên Phúc (nkocpk99012@gmail.com)",
+            "Chưa thấy được quy luật vận động nội tại và phát triển của sự vật hiện tượng ",
             "Đã thể hiện hệ thống các quy luật, phạm trù nhưng dựa trên quan điểm duy tâm về thế giới",
             "Tất cả các phương án"
         ],
@@ -112,7 +112,7 @@ export const sampleQuestions = [
         "question": "Hãy lựa chọn đáp án đúng. Tư duy trừu tượng được thể hiện dưới các hình thức nào?",
         "options": [
             "Khái niệm, phán đoán, suy tư",
-            "Khái niệm, phán đoán, suy nghĩ Nguyên Phúc (nkocpk99012@gmail.com)",
+            "Khái niệm, phán đoán, suy nghĩ ",
             "Khái niệm, phán đoán, suy diễn",
             "Khái niệm, phán đoán, suy lý"
         ],
@@ -169,7 +169,7 @@ export const sampleQuestions = [
     },
     {
         "id": 15,
-        "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng: Xét trong mối liên hệ phổ biến, mỗi sự vật: Nguyên Phúc (nkocpk99012@gmail.com)",
+        "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng: Xét trong mối liên hệ phổ biến, mỗi sự vật: ",
         "options": [
             "Có thể có nhiều mâu thuẫn với những vai trò khác nhau của chúng",
             "Có một mâu thuẫn",
@@ -220,7 +220,7 @@ export const sampleQuestions = [
         "question": "Chủ nghĩa Mác-Lênin được cấu thành từ ba bộ phận lý luận cơ bản, có mối quan hệ thống nhất biện chứng với nhau, đó là:",
         "options": [
             "Triết học Mác-Lênin, Kinh tế chính trị Mac-Lênin, Chính trị học",
-            "Triết học Mác-Lênin, Kinh tế chính trị Mac-Lênin, Xã hội học Nguyên Phúc (nkocpk99012@gmail.com)",
+            "Triết học Mác-Lênin, Kinh tế chính trị Mac-Lênin, Xã hội học ",
             "Triết học Mác-Lênin, Chính trị học, Chủ nghĩa xã hội khoa học",
             "Triết học Mác-Lênin, Kinh tế chính trị Mac-Lênin, Chủ nghĩa xã hội khoa học"
         ],
@@ -280,7 +280,7 @@ export const sampleQuestions = [
         "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng, sự phát triển hiểu theo nghĩa chung nhất là:",
         "options": [
             "Xu hướng vận động làm nảy sinh cái mới",
-            "Xu hướng thống trị của thế giới tiến lên từ đơn giản đến phức tạp, từ thấp đến cao, từ kém hoàn thiện đến hoàn thiện hơn theo những quy luật nhất định Nguyên Phúc (nkocpk99012@gmail.com)",
+            "Xu hướng thống trị của thế giới tiến lên từ đơn giản đến phức tạp, từ thấp đến cao, từ kém hoàn thiện đến hoàn thiện hơn theo những quy luật nhất định ",
             "Xu hướng vận động tiến lên từ thấp đến cao, từ đơn giản đến phức tạp, từ kém hoàn thiện đến hoàn thiện hơn của các sự vật, hiện tượng",
             "Tất cả các phương án"
         ],
@@ -329,7 +329,7 @@ export const sampleQuestions = [
         "options": [
             "Khái niệm",
             "Phán đoán",
-            "Suy lý Nguyên Phúc (nkocpk99012@gmail.com)",
+            "Suy lý ",
             "Tri giác"
         ],
         "explanation": "",
@@ -388,7 +388,7 @@ export const sampleQuestions = [
         "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng, luận điểm nào sau đây là sai?",
         "options": [
             "Trong giới hạn của độ sự thay đổi của lượng chưa làm cho chất của sự vật biến đổi",
-            "Tất cả các phương án Nguyên Phúc (nkocpk99012@gmail.com)",
+            "Tất cả các phương án ",
             "Trong giới hạn của độ sự thay đổi của lượng đều đưa đến sự thay đổi về chất của sự vật",
             "Chỉ khi lượng đạt đến giới hạn của độ mới làm cho chất của sự vật thay đổi"
         ],
@@ -447,7 +447,7 @@ export const sampleQuestions = [
         "id": 38,
         "question": "Lựa chọn luận điểm đúng, theo quan điểm của chủ nghĩa duy vật biện chứng:",
         "options": [
-            "Phát triển của sự vật có nguồn gốc sự tác động từ bên ngoài Nguyên Phúc (nkocpk99012@gmail.com)",
+            "Phát triển của sự vật có nguồn gốc sự tác động từ bên ngoài ",
             "Quá trình phát triển của sự vật là quá trình chuyển hóa từ sự thay đổi dần dần về lượng sang sự thay đổi về chất và ngược lại",
             "Phát triển của sự vật chỉ bao hàm sự thay đổi về lượng",
             "Phát triển của sự vật chỉ bao hàm biến đổi về chất"
@@ -508,7 +508,7 @@ export const sampleQuestions = [
         "question": "Vấn đề cơ bản của triết học là gì?",
         "options": [
             "Vấn đề mối quan hệ giữa Trời và Đất, người và vật",
-            "Tất cả các phương án còn lại Nguyên Phúc (nkocpk99012@gmail.com)",
+            "Tất cả các phương án còn lại ",
             "Vấn đề mối quan hệ giữa Vật chất và Ý thức",
             "Vấn đề mối quan hệ giữa tri thức và tình cảm"
         ],
@@ -565,7 +565,7 @@ export const sampleQuestions = [
     },
     {
         "id": 48,
-        "question": "Ba phát minh lớn nhất của khoa học tự nhiên làm tiền đề khoa học tự nhiên cho sự ra đời chủ nghĩa Mác – Lênin là những phát minh nào? Nguyên Phúc (nkocpk99012@gmail.com)",
+        "question": "Ba phát minh lớn nhất của khoa học tự nhiên làm tiền đề khoa học tự nhiên cho sự ra đời chủ nghĩa Mác – Lênin là những phát minh nào? ",
         "options": [
             "Thuyết Mặt trời làm trung tâm vũ trụ của Côpecnic; Định luật bảo toàn khối lượng của Lômônôxôp; Học thuyết tế bào",
             "Phát hiện ra nguyên tử; Phát hiện ra điện tử; Học thuyết tế bào",
@@ -594,7 +594,7 @@ export const sampleQuestions = [
             "Sự tác động của tự nhiên vào bộ óc con người",
             "Công cụ lao động",
             "Lao động và thực tiễn xã hội",
-            "Bộ não người và hoạt động của nó Nguyên Phúc (nkocpk99012@gmail.com)"
+            "Bộ não người và hoạt động của nó "
         ],
         "explanation": "",
         "correctAnswer": 2
